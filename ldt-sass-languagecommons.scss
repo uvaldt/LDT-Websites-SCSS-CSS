@@ -1,0 +1,624 @@
+/* General
+
+
+ _____                           _ 
+|  __ \                         | |
+| |  \/ ___ _ __   ___ _ __ __ _| |
+| | __ / _ \ '_ \ / _ \ '__/ _` | |
+| |_\ \  __/ | | |  __/ | | (_| | |
+ \____/\___|_| |_|\___|_|  \__,_|_|
+                                   
+                                   
+*/
+
+body input[type="checkbox"]
+{
+  -webkit-appearance:checkbox;
+  transform: scale(2,2);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+#zone-content-wrapper {
+
+	#zone-content {
+
+		#region-content {
+
+			div.view-id-news {
+				
+				div.views-row {
+					min-height:auto;
+					margin-top:5px;
+					padding-bottom:10px;
+				}
+
+				div.views-field p {
+					font-weight:normal;
+					line-height:120%;
+				}
+
+			}
+		}
+
+		div.field-name-field-event-date {
+			margin-bottom:15px;
+		}
+
+	}
+}
+
+/* Footer
+
+
+______          _            
+|  ___|        | |           
+| |_ ___   ___ | |_ ___ _ __ 
+|  _/ _ \ / _ \| __/ _ \ '__|
+| || (_) | (_) | ||  __/ |   
+\_| \___/ \___/ \__\___|_|   
+                             
+                             
+*/
+
+#zone-footer 
+{
+	.footer-blocks {
+		div.footer-block {
+			width:30%;
+			float:left;
+			padding:10px;
+		}
+	}
+}
+/* Blog and Events Buttons */
+
+/*
+
+
+  ____   _                                   _ 
+ | __ ) | |  ___    __ _    __ _  _ __    __| |
+ |  _ \ | | / _ \  / _` |  / _` || '_ \  / _` |
+ | |_) || || (_) || (_| | | (_| || | | || (_| |
+ |____/ |_| \___/  \__, |  \__,_||_| |_| \__,_|
+                   |___/                       
+  _____                     _                  
+ | ____|__   __ ___  _ __  | |_  ___           
+ |  _|  \ \ / // _ \| '_ \ | __|/ __|          
+ | |___  \ V /|  __/| | | || |_ \__ \          
+ |_____|  \_/  \___||_| |_| \__||___/          
+                                               
+  ____          _    _                         
+ | __ )  _   _ | |_ | |_  ___   _ __   ___     
+ |  _ \ | | | || __|| __|/ _ \ | '_ \ / __|    
+ | |_) || |_| || |_ | |_| (_) || | | |\__ \    
+ |____/  \__,_| \__| \__|\___/ |_| |_||___/    
+                                               
+*/
+.blog-and-events-menu {
+    margin-bottom: 0px;
+    width: 100%;
+    float: right;
+
+	ul {
+	    list-style-type:none;
+	    margin:0;
+	    padding:0;
+	    float:right;
+
+	    li {
+		    list-style:none;
+		    float:left;
+		    margin-top: 4px;
+		    padding-right:0px;
+		}
+	}
+
+	a {
+	    display: block;
+	    float: left;
+	    width: 100px;
+	    height: 30px;
+	    background: #e57200;
+	    text-align: center;
+	    padding-top: 10px;
+	    color: white;
+
+	    &:hover {
+		    background:#002f6c;
+		}
+	}
+
+}
+
+/* 
+
+
+
+ _                                                _           _     
+| |                                              | |         | |    
+| |     __ _ _ __   __ _ _   _  __ _  __ _  ___  | |     __ _| |__  
+| |    / _` | '_ \ / _` | | | |/ _` |/ _` |/ _ \ | |    / _` | '_ \ 
+| |___| (_| | | | | (_| | |_| | (_| | (_| |  __/ | |___| (_| | |_) |
+\_____/\__,_|_| |_|\__, |\__,_|\__,_|\__, |\___| \_____/\__,_|_.__/ 
+                    __/ |             __/ |                         
+                   |___/             |___/                          
+
+Language Lab
+
+*/
+
+#language-lab 
+{
+	.language-lab-photo-region
+	{
+		position:relative;
+		width:50%;
+		margin-bottom: 40px;
+
+		.inner
+		{
+			position:relative;	
+			height: 250px;
+	    	overflow: hidden;	
+		}
+	    
+		.language-lab-photo-block
+		{
+			img 
+			{
+				width:400px;
+			}
+			a 
+			{
+				.language-lab-photo-block-title
+				{
+					position: absolute;
+				    top: 170px;
+				    height: 40px;
+				    background-color: rgba(0, 38, 84, 0.85);
+				    width: 360px;
+				    padding: 20px;
+				    font-family:'bodoni-urw', georgia, serif;
+				    color: #fff;
+				    font-size:24px;
+				}
+
+				.language-lab-photo-block-subtitle
+				{
+					position: absolute;
+				    top: 200px;
+				    font-size: 12px;
+				    padding: 20px;
+				    color: #fff;
+				}
+				&:hover 
+				{
+					.language-lab-photo-block-title
+					{
+					    background-color: rgba(229, 114, 0, 0.85);
+					}
+				}
+			}
+			
+		}	
+	}
+	
+	.five-reasons-to-use-the-language-lab
+	{
+		padding: 20px;
+    	background-color: #e4e8f3;
+    	margin-bottom:10px;
+
+    	> .inside
+    	{
+    		padding: 5px;
+    		background-color: #efefef;
+    	}
+	}
+
+	#about-the-language-lab
+	{
+		margin:0 auto;
+		
+		margin-bottom:20px;
+	}
+}
+
+/* Views
+
+
+
+
+ __      __  _                         
+ \ \    / / (_)                        
+  \ \  / /   _    ___  __      __  ___ 
+   \ \/ /   | |  / _ \ \ \ /\ / / / __|
+    \  /    | | |  __/  \ V  V /  \__ \
+     \/     |_|  \___|   \_/\_/   |___/
+                                       
+                                       
+                             
+                                                                  
+
+*/
+#section-content #zone-content 
+{
+	.news-page-row
+	{
+		clear:both;
+		img {width:500px;}
+	}
+
+	.language-lab-activities
+	{
+
+		div.item-list 
+		{
+
+		    .view-content 
+		    {
+		      width:66%;
+		      display:block;
+		      width:60%;
+		      float:left;
+
+		      > div {
+		        float:left;        
+		      }
+
+		      h3 {
+		        background-color: #eff1f7;
+		        padding: 5px;
+		      }
+		    }
+		    .views-row 
+		    {
+		      float: left;
+		      clear: left;
+		      margin-bottom:30px;
+		      list-style:none;
+		    }
+		    .views-exposed-widget.views-submit-button 
+		    {
+		      clear: left;
+		    }      
+		  
+		    .views-field-field-software-tool-image, 
+		    .views-field-field-tool-type, 
+		    .views-field-field-tool-category,  
+		    {
+		      float: left;
+		      width:130px;  
+		      padding:10px;
+		    }
+
+		    img {
+		      width:auto;
+		    } 
+
+		    .view-stories-image {
+		      a {
+		        border-bottom:none;
+		      }
+		    }
+		}
+		    
+	    .view-filters 
+	    {
+	      float: right;
+	      width: 250px;
+	      background-color: #eee;
+	      padding: 10px;
+
+	      #edit-field-category-tid-wrapper > label
+	      {
+	        font-size: 24px;
+	        margin-bottom: 20px;
+	      }
+	    }
+	}
+	#test-entityform-edit-form {
+		input {
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+	}
+}
+
+#region-content .staff-image {
+	img {
+		width:200px;
+		max-width:200px;
+	}
+}
+/* Homepage
+
+
+ _   _                                             
+| | | |                                            
+| |_| | ___  _ __ ___   ___ _ __   __ _  __ _  ___ 
+|  _  |/ _ \| '_ ` _ \ / _ \ '_ \ / _` |/ _` |/ _ \
+| | | | (_) | | | | | |  __/ |_) | (_| | (_| |  __/
+\_| |_/\___/|_| |_| |_|\___| .__/ \__,_|\__, |\___|
+                           | |           __/ |     
+                           |_|          |___/      
+
+*/
+
+#zone-header-wrapper {
+
+	background: #fff;
+	.homepage-three-panel-canvas {
+
+		.homepage-three-panel {
+
+			text-align: center;
+
+			a:hover {
+				img { opacity: .7; }
+			}
+			img {
+				max-height:230px; 
+			}
+			h1 {
+				font-size:32px;
+				height:70px;
+				
+			}
+		}
+
+	}	
+
+}
+#section-content {
+	#zone-content-wrapper {
+		#zone-content {
+			.news-events-facebook {
+				padding:20px;
+				background: #fcfcfc;
+				width:100%;
+				margin:0 auto;
+				margin-bottom:30px;
+			}
+
+			.affiliates-block {
+				tbody {
+					border-top:none;
+				}
+			}
+			.world-languages-list {
+				ul
+				{
+					li 
+					{
+						list-style:none;
+						float:left;
+						width:20%;
+					}
+				}
+			}
+			.world-language-resources {
+				ul {
+					li {
+						list-style:none;
+						float:left;
+						width:20%;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+#zone-footer {
+	td {
+		width:33%;
+		padding-top:30px;
+		vertical-align: top;
+	}
+}
+
+/* About page
+
+
+  ___  _                 _    ______                
+ / _ \| |               | |   | ___ \               
+/ /_\ \ |__   ___  _   _| |_  | |_/ /_ _  __ _  ___ 
+|  _  | '_ \ / _ \| | | | __| |  __/ _` |/ _` |/ _ \
+| | | | |_) | (_) | |_| | |_  | | | (_| | (_| |  __/
+\_| |_/_.__/ \___/ \__,_|\__| \_|  \__,_|\__, |\___|
+                                          __/ |     
+                                         |___/      
+
+*/
+
+#staff-region {
+
+	caption {
+		text-align:left;
+		font-size:18px;
+		font-weight: bold;
+		margin-top:20px;
+	}
+	.staff-table-row {
+		td {
+			vertical-align: top;
+		}
+		td:first-child {
+			width: 150px;
+		}
+	}
+}
+
+/* Calendar
+
+
+ _____       _                _            
+/  __ \     | |              | |           
+| /  \/ __ _| | ___ _ __   __| | __ _ _ __ 
+| |    / _` | |/ _ \ '_ \ / _` |/ _` | '__|
+| \__/\ (_| | |  __/ | | | (_| | (_| | |   
+ \____/\__,_|_|\___|_| |_|\__,_|\__,_|_|   
+                                           
+                                           
+*/
+
+#left-calendar-info {
+	padding:10px;
+	background-color:#f6f6f6;
+	h2 {
+		font-size:24px;
+		font-family: helvetica;
+	}
+}
+
+#calendar-page-calendar {
+	h2 {
+		font-family: helvetica;
+	}
+	table {
+		td {
+			border:1px dotted #f1f1f1;
+		}
+		td.fc-day {
+			border:1px solid #ccc;
+		}
+	}
+	a.lc-space-reservation {
+		background-color: #b96a6a;
+		border-color: #b96a6a;
+
+		.fc-event-time {
+			color:white;
+			background-color: #b96a6a;
+			border-color: #b96a6a;
+		}
+	}
+	
+}
+
+#zone-content-wrapper #zone-content #calendar-key {
+	padding:10px;
+	background-color:#f6f6f6;
+	h2 {
+		font-size:24px;
+		font-family: helvetica;
+	}
+
+	.blue-calendar-key {
+	    background-color: #3062cf;
+	    padding: 3px;
+	    color: #fff;
+	    border-radius: 5px;
+	}
+	.red-calendar-key {
+		background-color: #b96a6a;
+	    padding: 3px;
+	    color: #fff;
+	    border-radius: 5px;
+	}
+}
+
+#calendar-page-upcoming-events {
+	h3 {
+		background-color: #dae0ef;
+		padding:5px;
+	}
+}
+
+#edit-field-confirmed-
+{
+	font-size: 36px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+/* Responsive
+
+
+______                                _           
+| ___ \                              (_)          
+| |_/ /___  ___ _ __   ___  _ __  ___ ___   _____ 
+|    // _ \/ __| '_ \ / _ \| '_ \/ __| \ \ / / _ \
+| |\ \  __/\__ \ |_) | (_) | | | \__ \ |\ V /  __/
+\_| \_\___||___/ .__/ \___/|_| |_|___/_| \_/ \___|
+               | |                                
+               |_|                                
+
+*/
+
+@media only screen and (max-width: 768px) 
+{
+	#zone-header-wrapper 
+	{
+		#zone-header
+		{
+			.panels-flexible-column
+			{
+				width:100%;		
+			}
+
+			h1 
+			{
+				height:auto;
+			}
+		}
+	
+	}
+	#section-content {
+
+		#zone-content-wrapper
+		{
+			#zone-content
+			{
+				#mini-panel-news_events_and_updates
+				{
+					.panel-panel
+					{
+						width:100%;
+					}
+				}
+
+				.news-events-facebook 
+				{
+					width:95%;
+					left:-13px;
+				}
+
+				.world-languages-list {
+					ul {
+						li {
+							width:100%;
+							margin-left:0px;
+						}
+					}
+				}
+
+				.world-language-resources {
+					ul {
+						li {
+							width:100%;
+							margin-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#zone-footer {
+		.footer-blocks {
+			div.footer-block {
+				width:100%;
+				float:left;
+				padding:10px;
+			}
+		}
+	}
+} 
+
+

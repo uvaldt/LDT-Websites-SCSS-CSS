@@ -1,0 +1,46 @@
+/* ULA Page Stuff */
+/* 
+
+
+  _   _  _         _      ____                     
+ | | | || |       / \    |  _ \  __ _   __ _   ___ 
+ | | | || |      / _ \   | |_) |/ _` | / _` | / _ \
+ | |_| || |___  / ___ \  |  __/| (_| || (_| ||  __/
+  \___/ |_____|/_/   \_\ |_|    \__,_| \__, | \___|
+                                       |___/       
+*/
+h2.site-name {
+  display: none; }
+
+body #zone-user-wrapper #zone-user .region-user-first {
+  width: 450px; }
+
+a.ula-button {
+  float: left;
+  width: 17vw;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  border: 1px solid #fff;
+  display: block;
+  background-color: #5a99d3;
+  padding: 5px; }
+  a.ula-button:hover {
+    background-color: #E57200;
+    color: white; }
+
+#section-content #zone-content-wrapper #zone-content p, #section-content #zone-content-wrapper #zone-content ul li {
+  font-size: 16px; }
+#section-content #zone-content-wrapper #zone-content a {
+  border-bottom: 1px dotted #03143D; }
+#section-content #zone-content-wrapper #zone-content #region-content ul li.ula-bio-row {
+  float: left;
+  display: block; }
+  #section-content #zone-content-wrapper #zone-content #region-content ul li.ula-bio-row img {
+    width: 300px;
+    display: block;
+    float: left;
+    margin: 5px;
+    margin-right: 15px; }
+
+/*# sourceMappingURL=ldt-sass-ula.css.map */
