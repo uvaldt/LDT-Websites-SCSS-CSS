@@ -72,6 +72,34 @@ ______          _
 		}
 	}
 }
+
+/* Buttons etc 
+
+
+______       _   _                  
+| ___ \     | | | |                 
+| |_/ /_   _| |_| |_ ___  _ __  ___ 
+| ___ \ | | | __| __/ _ \| '_ \/ __|
+| |_/ / |_| | |_| || (_) | | | \__ \
+\____/ \__,_|\__|\__\___/|_| |_|___/
+                  
+*/
+
+a.lc-button {
+	display:block;
+	padding:10px;
+	background-color:#e57200;
+	color:white;
+	border-radius:5px;
+	
+	&:hover {
+		    background:#002f6c;
+	}
+
+
+}                  
+                                    
+
 /* Blog and Events Buttons */
 
 /*
@@ -370,6 +398,15 @@ Language Lab
 		}
 
 	}	
+	.language-commons-closed-block {
+	    width: 100%;
+	    display: block;
+	    background-color: #e57200;
+	    padding: 10px;
+	    color: #fff;
+	    font-size: 18px;
+	    font-weight: bolder;
+	}
 
 }
 #section-content {
