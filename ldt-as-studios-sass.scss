@@ -127,7 +127,14 @@ section#section-content {
 			    list-style:disc;
 			    margin-left:80px;
 			}
-
+			ul.studio-block li
+			{
+			  list-style-type: none;
+			  display:block;
+			  float:left;
+			  width:350px;
+			  clear:none;
+			}
 			.homepage-image-block {
 				width:32%;
 				height:350px;
@@ -184,6 +191,29 @@ body.front {
 	}
 }
 
+body.node-type-studio
+{
+	section#section-content {
+
+		#zone-content-wrapper {
+
+			#zone-content {
+
+				div.field-label 
+				{
+					font-family: 'franklin-gothic-urw-cond', 'arial narrow', sans-serif;
+				    font-size: 1.875em;
+				    line-height: 1.0666666667em;
+				    margin-bottom: 10px;
+				    margin-top:10px;
+				    font-weight: normal;
+				    color: #000;
+				}
+
+			}
+		}
+	}
+}
 /* Megamenu */
 
 /* 
