@@ -15,8 +15,16 @@
                                    |___/      
 */
 
-body {
+body #page {
 	
+	a.button {
+		padding:10px;
+		background-color:#fbaa65;
+		border-radius:5px;
+		&:hover {
+			background-color:#176ed0;
+		}
+	}
 	background-color:#fff;
 	
 	a {
