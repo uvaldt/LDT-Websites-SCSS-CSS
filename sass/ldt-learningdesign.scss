@@ -87,6 +87,9 @@ a.content-button {
   p, li, h1, h2, h3, h4, h5 {
     color: #000;
   }
+  a {
+    text-decoration: underline;
+  }
 }
 
 /* Content */
@@ -108,7 +111,56 @@ a.content-button {
 body #section-content #zone-content-wrapper #zone-content #region-content .region-inner 
 {
   border-top:none;
+  table.fc-header {
+    border:none;
+  }
+  .view-id-news .views-row {
+    border:none;
+  }
+  .field-name-field-event-date {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .past-events-block h2.pane-title {
+    width: 100%;
+    background-color: #efefef;
+    padding: 5px;
+  }
+
+  .view-organizing-instructional-time-for-summer-intensive-courses {
+    table {
+      tr:first-of-type {background-color: #efefef;}
+      tr:nth-of-type(2) {
+        td:first-of-type {background-color: #ecdbc2;}
+      }
+      tr:nth-of-type(3) {
+        td:first-of-type {background-color: #d5deec;}
+        background-color: #f9fafd;
+      }
+      td {
+        vertical-align: top;
+      }
+      p {
+        line-height: 100%;
+        margin-bottom:.4em;
+      }
+      .break-text {
+        color: #78cc78;
+        background-color: #e5f1df;
+      }
+    }
+    .views-field-field-context {
+        background-color: #e6f5f9;
+        padding: 10px;  
+      }
+      .views-field-field-proscons {
+        margin-bottom:50px;
+      }
+  }
+  
+
 }
+
 
 /* equipment */
 /* 
