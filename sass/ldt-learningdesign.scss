@@ -126,7 +126,27 @@ body #section-content #zone-content-wrapper #zone-content #region-content .regio
     background-color: #efefef;
     padding: 5px;
   }
+  .virtual-teaching-menu {
+    background-color:#e5eaf6;
+    border-radius:10px 0px 0px 0px;
+    padding:10px 10px 30px 15px;
+    margin-right:20px;
+    width:240px;
+    margin-left:-75px;
+    ul {
+        li {
+          list-style: none;
+          margin-left:0px;
+          a{
+            border-bottom:none;
+          }
+        }
+    }
+    .nolink {
+        font-weight: bold;
+    }
 
+  }
   .view-organizing-instructional-time-for-summer-intensive-courses {
     table {
       tr:first-of-type {background-color: #efefef;}
@@ -139,6 +159,10 @@ body #section-content #zone-content-wrapper #zone-content #region-content .regio
       }
       td {
         vertical-align: top;
+        width:18%;
+      }
+      td:first-of-type {
+        width:10%;
       }
       p {
         line-height: 100%;
